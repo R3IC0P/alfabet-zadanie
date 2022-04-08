@@ -1,0 +1,213 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@keyframes fadein {
+    from { opacity: 0 }
+    to { opacity: 1 }
+}
+
+html {
+    scroll-behavior: smooth;
+    animation: fadein 1s;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-image: url(https://image.freepik.com/darmowe-wektory/biale-minimalne-tlo_1393-309.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+a, a:visited{
+    text-decoration: none;
+    color: #33220b;
+}
+
+img {
+    width: 30rem;
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.container-1 {
+    position: relative;
+}
+
+.top-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: burlywood;
+    padding: 10px;
+}
+
+.logo-st {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: max-content;
+    font-size: 30px;
+    font-style: italic;
+    color: #33220b;
+    margin-left: 15px;
+}
+
+.container-2 {
+    width: 100%;
+}
+
+.logo {
+    letter-spacing: 3px;
+    font-style: italic;
+    font-size: 40px;
+    color: #33220b;
+}
+
+.logo-bot-line {
+    width: 615px;
+    height: 1px;
+    padding-top: 10px;
+    border-bottom: 2px solid #33220b;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    min-width: 850px;
+    margin-top: 40px;
+    background-color: burlywood;
+    box-shadow: 0 10px 10px -7px #33220b;
+}
+
+.alphabet {
+    display: flex;
+    justify-content: center;
+}
+
+.alphabet a {
+    display: inline-block;
+    padding: 10px;
+    margin: 4px 0 4px 0;
+    border-radius: 5px;
+}
+
+.alphabet a:hover {
+    background-color: aliceblue;
+}
+
+.wrapper {
+    width: 70vw;
+    min-width: 600px;
+    margin: 0 auto 0 auto;
+    background-color: antiquewhite;
+    background-image: url(https://image.freepik.com/darmowe-zdjecie/vintage-zmiety-papier-teksturowane-tlo_53876-103940.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 5px 35px #33220b;
+}
+
+.sep {
+    width: 80%;
+    height: 80px;
+    border-top: 5px double #33220b;
+    border-bottom: 5px double #33220b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    font-style: italic;
+    margin-top: 20px;
+}
+
+.words {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.le {
+    padding: 25px;
+    border-top: 2px solid black;
+}
+
+.le:first-child {
+    border-top: none;
+}
+
+.m-l {
+    font-style: italic;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.go-top {
+    width: 45px;
+    height: 45px;
+    position: sticky;
+    top: 90%;
+    margin-left: -280%;
+
+    background-color: #33220b;
+    border-radius: 50%;
+    font-size: 50px;
+    font-weight: bold;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.go-top a {
+    font-size: 30px;
+    color: aliceblue;
+    display: block;
+    transform: rotate(-90deg);
+}
+
+footer {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: burlywood;
+    box-shadow: 0 7px 15px 7px #33220b;
+}
+
+span {
+    width: 40%;
+    border-top: 2px solid #33220b;
+    text-align: center;
+    font-size: 12px;
+}
+
+span a:hover {
+    color: white
+}
+
+/* Created by R3IC0P */
